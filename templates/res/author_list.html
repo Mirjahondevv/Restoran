@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Author List</title>
+</head>
+<body>
+<h1>Mualliflar ro'yxati</h1>
+
+<ol>
+  {% for i in author%}
+    <li> {{ i.ism }}</li>
+  {% endfor %}
+</ol>
+</body>
+</html>
